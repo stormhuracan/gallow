@@ -3,13 +3,13 @@ from list_words import *
 
 lst = set()
 
-#  Можно подставить свой список со словами вместо wrds в файле list_words
+# Можно подставить свой список со словами вместо wrds в файле list_words
 wrds = wrds
 
-#  Обработка списка слов
+# Обработка списка слов
 x = " ".join(line.strip().upper() for line in wrds.split('\n') if line.strip()).split(' ')
 
-#  Основная логика игры
+# Основная логика игры
 while True:
     try:
         print("Добро пожаловать в игру Виселица, для начала игры напишите 'старт'")
